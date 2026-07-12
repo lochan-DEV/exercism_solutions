@@ -8,6 +8,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 ## Progress
 
 - [x] Hello World
+- [x] Guido's Gorgeous Lasagna
 
 
 ## Tools
