@@ -11,6 +11,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 - [x] Guido's Gorgeous Lasagna
 - [x] Ghost Gobble Arcade Game
 - [x] Currency Exchange
+- [x] Meltdown Mitigation
 - [x] Black Jack
 - [x] Little Sister's Vocabulary
 
