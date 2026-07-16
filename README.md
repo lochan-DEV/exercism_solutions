@@ -12,6 +12,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 - [x] Ghost Gobble Arcade Game
 - [x] Currency Exchange
 - [x] Black Jack
+- [x] Little Sister's Vocabulary
 
 ## Tools
 
