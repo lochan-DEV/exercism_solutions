@@ -22,6 +22,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 - [x] Little Sister's Vocabulary
 - [x] Little Sister's Eassay
 - [x] Card Game
+- [x] Chaitana's Colossal Coaster
 
 ## Tools
 
