@@ -9,12 +9,12 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 
 ## Progress
 
-- Learning Path - [10] solved
+- Learning Path - [11] solved
 
 # Learning Path 
 
 - [x] Hello World                     | - [x] Making The Grade
-- [x] Guido's Gorgeous Lasagna        |
+- [x] Guido's Gorgeous Lasagna        | - [x] Tisbury Treasure Hunt
 - [x] Ghost Gobble Arcade Game        |
 - [x] Currency Exchange               |
 - [x] Meltdown Mitigation             |
