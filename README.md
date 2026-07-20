@@ -13,7 +13,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 
 # Learning Path 
 
-- [x] Hello World                     |
+- [x] Hello World                     | - [x] Making The Grade
 - [x] Guido's Gorgeous Lasagna        |
 - [x] Ghost Gobble Arcade Game        |
 - [x] Currency Exchange               |
