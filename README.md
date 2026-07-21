@@ -15,7 +15,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 
 - [x] Hello World                     | - [x] Making The Grade
 - [x] Guido's Gorgeous Lasagna        | - [x] Tisbury Treasure Hunt
-- [x] Ghost Gobble Arcade Game        |
+- [x] Ghost Gobble Arcade Game        | - [x] Inventory Management
 - [x] Currency Exchange               |
 - [x] Meltdown Mitigation             |
 - [x] Black Jack                      |
