@@ -7,3 +7,11 @@ def add_item(current_cart, items_to_add):
         else:
             current_cart[items]=1
     return current_cart
+
+def read_notes(notes):
+    newdict=dict.fromkeys(notes, 1)
+    return newdict
+
+def update_recipes(ideas, recipe_updates):
+    x=ideas.update(recipe_updates)
+    return ideas
