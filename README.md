@@ -9,7 +9,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 
 ## Progress
 
-- Learning Path - [13] solved
+- Learning Path - [14] solved
 
 # Learning Path 
 
