@@ -15,3 +15,7 @@ def read_notes(notes):
 def update_recipes(ideas, recipe_updates):
     x=ideas.update(recipe_updates)
     return ideas
+
+def sort_entries(cart):
+    sorted_cart=dict(sorted(cart.items()))
+    return sorted_cart
