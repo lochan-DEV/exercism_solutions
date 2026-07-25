@@ -29,4 +29,16 @@ def send_to_store(cart, aisle_mapping):
         store[item] = [quantity, aisle, in_stock]
     sorted_cart = dict(sorted(store.items(), reverse=True))
     return sorted_cart
-            
+
+def update_store_inventory(fulfillment_cart, store_inventory):
+    for item in fulfillment_cart:
+        ordered_qty = fulfillment_cart[item][0]
+        current_qty = store_inventory[item][0]
+        aisle = store_inventory[item][1]
+        in_stock = store_inventory[item][2]
+        new_qty = current_qty - ordered_qty
+        if new_qty == 0:
+            store_inventory[item] = ['Out of Stock', aisle, in_stock]
+        else:
+            store_inventory[item] = [new_qty, aisle, in_stock]
+    return store_inventory
