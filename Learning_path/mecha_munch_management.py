@@ -19,3 +19,14 @@ def update_recipes(ideas, recipe_updates):
 def sort_entries(cart):
     sorted_cart=dict(sorted(cart.items()))
     return sorted_cart
+
+def send_to_store(cart, aisle_mapping):
+    store = {}
+    for item in cart:
+        quantity = cart[item]
+        aisle = aisle_mapping[item][0]
+        in_stock = aisle_mapping[item][1]
+        store[item] = [quantity, aisle, in_stock]
+    sorted_cart = dict(sorted(store.items(), reverse=True))
+    return sorted_cart
+            
