@@ -15,3 +15,7 @@ def fix_list_of_wagons(each_wagons_id, missing_wagons):
 def add_missing_stops(route, **stops):
     route["stops"] = list(stops.values())
     return route
+
+def extend_route_information(route, more_route_information):
+    route.update(more_route_information)
+    return route
