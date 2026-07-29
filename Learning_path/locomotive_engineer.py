@@ -10,3 +10,8 @@ def fix_list_of_wagons(each_wagons_id, missing_wagons):
     one = rest[0]
     remaining = rest[1:]
     return [one] + missing_wagons + remaining + [x, y]
+
+
+def add_missing_stops(route, **stops):
+    route["stops"] = list(stops.values())
+    return route
