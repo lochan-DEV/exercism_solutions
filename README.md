@@ -17,7 +17,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 - [x] Guido's Gorgeous Lasagna        | - [x] Tisbury Treasure Hunt
 - [x] Ghost Gobble Arcade Game        | - [x] Inventory Management
 - [x] Currency Exchange               | - [x] Mecha Munch Management
-- [x] Meltdown Mitigation             |
+- [x] Meltdown Mitigation             | - [x] Locomotive Engineer
 - [x] Black Jack                      |
 - [x] Little Sister's Vocabulary      |
 - [x] Little Sister's Eassay          |
