@@ -19,3 +19,6 @@ def add_missing_stops(route, **stops):
 def extend_route_information(route, more_route_information):
     route.update(more_route_information)
     return route
+
+def fix_wagon_depot(wagons_rows):
+    return [list(row) for row in zip(*wagons_rows)]
