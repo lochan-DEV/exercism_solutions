@@ -4,3 +4,9 @@ def get_list_of_wagons(*argvs):
     for i in argvs:
         list.append(i)
     return list
+
+def fix_list_of_wagons(each_wagons_id, missing_wagons):
+    x, y, *rest = each_wagons_id
+    one = rest[0]
+    remaining = rest[1:]
+    return [one] + missing_wagons + remaining + [x, y]
