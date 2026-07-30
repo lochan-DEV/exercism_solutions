@@ -38,3 +38,10 @@ def tag_special_ingredients(dish):
     dish_name, dish_ingredients = dish         
     special = set(dish_ingredients) & set(SPECIAL_INGREDIENTS)
     return (dish_name, special)
+
+
+def compile_ingredients(dishes):
+    master_list = set()
+    for dish in dishes:
+        master_list = master_list | set(dish) 
+    return master_list
