@@ -32,4 +32,9 @@ def categorize_dish(dish_name, dish_ingredients):
         return f"{dish_name}: KETO"
     else:
         return f"{dish_name}: OMNIVORE"
-        
+
+
+def tag_special_ingredients(dish):
+    dish_name, dish_ingredients = dish         
+    special = set(dish_ingredients) & set(SPECIAL_INGREDIENTS)
+    return (dish_name, special)
