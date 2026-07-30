@@ -45,3 +45,7 @@ def compile_ingredients(dishes):
     for dish in dishes:
         master_list = master_list | set(dish) 
     return master_list
+
+
+def separate_appetizers(dishes, appetizers):
+    return list(set(dishes) - set(appetizers))
