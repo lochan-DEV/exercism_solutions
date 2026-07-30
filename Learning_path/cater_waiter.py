@@ -49,3 +49,13 @@ def compile_ingredients(dishes):
 
 def separate_appetizers(dishes, appetizers):
     return list(set(dishes) - set(appetizers))
+
+
+def singleton_ingredients(dishes, intersection):
+    all_ingredients = set()
+    duplicates = set()
+    for dish in dishes:
+        dish = set(dish)
+        duplicates = duplicates | (all_ingredients & dish)
+        all_ingredients = all_ingredients | dish
+    return all_ingredients - duplicates - intersection
