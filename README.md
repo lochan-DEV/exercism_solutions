@@ -18,7 +18,7 @@ Practice solving real-world style problems on Exercism to sharpen my Python fund
 - [x] Ghost Gobble Arcade Game        | - [x] Inventory Management
 - [x] Currency Exchange               | - [x] Mecha Munch Management
 - [x] Meltdown Mitigation             | - [x] Locomotive Engineer
-- [x] Black Jack                      |
+- [x] Black Jack                      | - [x] Cater Waiter
 - [x] Little Sister's Vocabulary      |
 - [x] Little Sister's Eassay          |
 - [x] Card Game                       |
